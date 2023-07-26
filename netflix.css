@@ -1,0 +1,568 @@
+ @import url('https://fonts.googleapis.com/css2?family=Alata&family=Bebas+Neue&family=Epilogue:wght@500;700&family=Josefin+Sans:wght@300&family=Lexend+Deca:wght@700&family=Mulish:wght@400;500;800&family=Outfit:wght@700&family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        /*background-color: black;*/
+    }
+    .body{
+        background-color: rgb(119, 117, 117);
+        color: rgb(21, 20, 20);
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 200;
+        overflow: auto;
+    }
+    .container::before{
+        content: "";
+        background: url(/netflix-1536x864.jpg) no-repeat center center/cover;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        opacity: 0.2;
+        z-index: -1;
+    }
+    .navbar{
+        height: 100%;
+        display: flex;
+    }
+    .navbar .left-nav{
+        float: left;
+        height: 100%;
+        display: flex;
+    }
+    .navbar .left-nav img{
+        height: 100%;
+        position: absolute;
+        left: 35px;
+    }
+    .right-nav{
+        height: 100px;
+        display: flex;
+        float: right;
+        position: absolute;
+        right: 50px;
+    }
+    .right-nav .language{
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        font-size: 19px;
+        padding: 7px 10px;
+        color: white;
+        background: none;
+        cursor: pointer;
+        margin-right: 15px;
+    }
+    .right-nav .language option{
+        background-color: gray;
+    }
+    .right-nav button{
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        font-size: 19px;
+        font-weight: 400;
+        padding: 7px 17px;
+        background: #e50914;
+        cursor: pointer;
+        outline: none;
+        border-radius: 4px;
+        border: none;
+    }
+    .right-nav button a{
+        text-decoration: none;
+        color: white;
+    }
+    .container .title{
+       padding: 70px 45px;
+    }
+    .container .title .container1{
+        width: 950px;
+        margin: auto;
+        /*background-color: black;*/
+        padding: 75px 0;
+        text-align: center;
+    }
+    .container .title .container1 h1{
+        width: 650px;
+        margin: auto;
+        font-size: 3rem;
+        text-align: center;
+        color: white;
+        position: relative;
+        z-index: 5;
+        font-family: system-ui;
+    }
+    .container .title .container1 h2{
+        width: 650px;
+        margin: auto;
+        font-size: 2rem;
+        text-align: center;
+        color: white;
+        position: relative;
+        z-index: 5;
+        font-family: system-ui;
+    }
+    .container .title .container1 form h3{
+        font-size: 1rem;
+        margin-top: 33px;
+        text-align: center;
+        color: white;
+        position: relative;
+        z-index: 5;
+        font-family: system-ui;
+    }
+    .container .title .container1 form .email{
+        width: 1000px;
+        margin: 30px;
+        left: -57px;
+        position: relative;
+    }
+    .container .title .container1 form .email input{
+        height: 60px;
+        width: 450px;
+        margin: auto;
+        padding: 20px;
+        font-size: 20px;
+        outline: none;
+    }
+    .container2 h1{
+        color: white;
+        position: relative;
+        z-index: 5;
+        font-size: 60px;
+        width: 999px;
+        margin: 25px;
+        left: 130px;
+        font-family: system-ui;
+    }
+    .button{
+        height: 60px;
+        width: 180px;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        padding: 7px 17px;
+        background: #e50914;
+        cursor: pointer;
+        outline: none;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border: none;
+        margin-left: -5px;
+
+    }
+    .container .title .container1 form .email button:hover{
+        background-color: #f40612;
+    }
+    .container .title .container1 form .email button a{
+        text-decoration: none;
+        color: white;
+    }
+    .container2{
+        display: flex;
+        position: relative;
+        align-items: center;
+        top: 89px;
+        background-color: black;
+
+    }
+    .container3{
+        display: flex;
+        position: relative;
+        top: 100px;
+        background-color: black;
+        height: 420px;
+    }
+    .container3 h1{
+        color: white;
+        position: relative;
+        z-index: 5;
+        font-size: 60px;
+        width: 999px;
+        margin: 25px;
+        left: 306px;
+        top: 45px;
+        font-family: system-ui;
+    }
+    .container2 h3{
+        color: white;
+        position: relative;
+        z-index: 5;
+        top: 101px;
+        left: -421px;
+        font-family: system-ui;
+        font-size: x-large;
+        font-weight: 400;
+    }
+    .container3 h3{
+        color: white;
+        position: relative;
+        z-index: 5;
+        top: 25px;
+        left: 333px;
+        font-family: system-ui;
+        font-size: x-large;
+        font-weight: 400;
+    }
+    .freq{
+        display: flex;
+        flex-direction: column;
+        width: 541px;
+        height: 62px;
+        justify-content: flex-start;
+        color: white;
+        gap: 53px;
+        background-color: gray;
+        justify-items: center;
+        align-items: center;
+        left: 466px;
+        position: relative;
+        font-family: system-ui;
+        top: 56px;
+    }
+    .container4{
+        position: relative;
+        background-color: black;
+        height: 319px;
+        top: 90px;
+    }
+    .container4 h1{
+        color: white;
+        position: relative;
+        z-index: 5;
+        font-size: 60px;
+        width: 999px;
+        margin: 25px;
+        left: 75px;
+        top: 62px;
+        font-family: system-ui;
+    }
+    .container4 h3{
+        color: white;
+        position: relative;
+        z-index: 5;
+        font-size: x-large;
+        width: 999px;
+        margin: 25px;
+        left: 74px;
+        top: 54px;
+        font-family: system-ui;
+        font-weight: 400;
+    }
+    .container5{
+        background-color: black;
+        height: 533px;
+        position: relative;
+        top: 104px;
+    }
+    .container5 h1{
+        color: white;
+        position: relative;
+        z-index: 5;
+        font-size: 60px;
+        width: 999px;
+        margin: 25px;
+        left: 705px;
+        top: -281px;
+        font-family: system-ui;
+    }
+    .container5 h3{
+        color: white;
+        position: relative;
+        z-index: 5;
+        font-size: x-large;
+        width: 999px;
+        margin: 25px;
+        left: 705px;
+        top: -298px;
+        font-family: system-ui;
+        font-weight: 400;
+    }
+    .container6{
+        background-color: black;
+        position: relative;
+        top: 86px;
+        height: 957px;
+    }
+    .container6 h1{
+        color: white;
+        position: relative;
+        z-index: 5;
+        font-size: 40px;
+        width: 999px;
+        margin: 25px;
+        left: 452px;
+        top: 38px;
+        font-family: system-ui;
+    }
+    .container6 h3{
+        color: white;
+        position: relative;
+        z-index: 5;
+        font-size: x-large;
+        width: 999px;
+        margin: 25px;
+        left: 705px;
+        top: 86px;
+        font-family: system-ui;
+        font-weight: 400;
+    }
+    .freq h2{
+        display: flex;
+        flex-direction: column;
+        width: 541px;
+        height: 62px;
+        justify-content: flex-start;
+        color: white;
+        gap: 53px;
+        background-color: gray;
+        left: 2px;
+        position: relative;
+        font-family: system-ui;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        padding: 20px;
+
+    }
+    .freq p{
+        display: flex;
+        flex-direction: column;
+        width: 42px;
+        height: 0px;
+        justify-content: flex-start;
+        color: white;
+        gap: 53px;
+        background-color: gray;
+        justify-items: center;
+        align-items: center;
+        left: 481px;
+        position: relative;
+        font-family: system-ui;
+        top: -71px;
+        font-size: 50px;
+
+    }
+    .last{
+        color: white;
+        position: relative;
+        z-index: 5;
+        font-size: large;
+        width: 999px;
+        margin: 25px;
+        left: 363px;
+        top: -77px;
+        font-family: system-ui;
+        font-weight: 400;
+    }
+    .last form h3{
+        font-size: 1rem;
+        margin-top: 33px;
+        text-align: center;
+        color: white;
+        position: relative;
+        z-index: 5;
+        font-family: system-ui;
+    }
+    .last form .email{
+        width: 1000px;
+        margin: 30px;
+        left: -57px;
+        position: relative;
+    }
+    .last  .email input{
+        height: 60px;
+        width: 450px;
+        margin: auto;
+        padding: 20px;
+        font-size: 20px;
+        outline: none;
+    }
+    .last button{
+        height: 60px;
+        width: 180px;
+        font-size: 20px;
+        padding: 7px 17px;
+        background: #e50914;
+        cursor: pointer;
+        outline: none;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border: none;
+        margin-left: -5px;
+        position: relative;
+        left: 41px;
+
+    }
+    .last input{
+        height: 60px;
+        width: 450px;
+        margin: auto;
+        padding: 20px;
+        font-size: 20px;
+        outline: none;
+        position: relative;
+        left: 39px;
+    }
+
+
+
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-height: 375px;
+        background-color: black;
+        margin-top: 10px;
+        flex-wrap: wrap;
+        align-items:center;
+        justify-content:space-around;
+        position: relative;
+        top: -43px;
+      
+      }
+      .box{
+        border: 4px solid;
+        border-radius: 10px;
+        background-color: black;
+        border-color: gray;
+        position: relative;
+        top: 189px;
+        height: 89px;
+        left: -1256px;
+        width: 308px;
+        padding-right: 128px;
+      }
+      
+      .footercon {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        min-height: 50px;
+        background-color: transparent;
+        font-family: system-ui;
+        position: relative;
+        top: -34px;
+      }
+      .box p{
+        position: relative;
+        top: -172px;
+        color: blue;
+        left: 63px;
+      }
+      .box h2{
+        position: relative;
+        top: -126px;
+        margin: 46px;
+        color: white;
+        left: 19px;
+      }
+      
+      .footer .flex1 {
+        color:#999;;
+        justify-content:space-around;
+        align-items:flex-start;
+        display: flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        width:100%;
+        font-size: 17px;
+        min-height: 30px;
+      
+      }
+      
+      .footer .flex1 h5 {
+        align-self:flex-start;
+      }
+      
+      .list1 {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-items: flex-start;
+        align-self: center;
+        justify-content: center;
+        min-height:50px;
+        font-size: 13px;
+        padding: 0px 70px;
+        text-align: left;
+      }
+      
+      .list1 li {
+        font-size: 13px;
+        margin: 7px -10px;
+        list-style-type: none;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-items: center;
+        align-self: flex-start;
+        justify-content: center;
+      }
+      
+      .list1 li a {
+        color: #999;
+        text-decoration: none;
+        font-size: 14px;
+      }
+      
+      li a {
+        font-size: 13px;
+        text-align: center;
+        color: #999;
+      }
+      
+      
+      .footertxt {
+        color:white;
+        display:flex;
+        flex-direction:row;
+        align-items:flex-end;
+        justify-content: flex-end;
+      }
+      
+      .end {
+        width:100%;
+        min-height:50px;
+        background-color: black;
+        justify-content:space-around;
+        align-items:flex-start;
+        display: flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        color:#999;
+        margin-top:-60px;
+        font-family: system-ui;
+      }
+      
+      .end h2 {
+      display:flex;
+      flex-direction: row;
+      font-size:16px;
+      font-family: system-ui;
+      position: relative;
+      left: -352px;
+      top: -70px;
+      }
+      
+      /*@media (min-width: 250px) and (max-width: 980px) {
+        body {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+        }
+        .container1 {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: center;
+          align-self: center;
+        }*/
